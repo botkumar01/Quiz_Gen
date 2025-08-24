@@ -1,0 +1,72 @@
+.display-container {
+  margin-top: 30px;
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.generate-btn {
+  background: linear-gradient(135deg, #6b26d8, #dd7f41);
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 14px 28px;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease-in-out;
+}
+
+.generate-btn:hover:not(:disabled) {
+  transform: translateY(-3px);
+  box-shadow: 0px 6px 16px rgba(0, 0, 0, 0.3);
+}
+
+.generate-btn:disabled {
+  background: #bbb;
+  cursor: not-allowed;
+  box-shadow: none;
+}
+
+.response-box {
+  margin-top: 30px;
+  background: #f9f9f9e1;
+  padding: 20px;
+  border-radius: 12px;
+  text-align: left;
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.response-title {
+  font-size: 22px;
+  text-align: center;
+  margin-bottom: 12px;
+  color: #333;
+}
+
+.response-text {
+  white-space: pre-wrap;
+  font-size: 18px;
+  line-height: 1.6;
+  color: #222;
+}
+.download-btn {
+  background: #3c8dbc;
+  color: #fff;
+  font-size: 1.1rem;
+  font-weight: 600;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  margin-top: 15px;
+  transition: all 0.3s ease;
+}
+
+.download-btn:hover {
+  opacity: 0.9;
+  transform: translateY(-2px);
+}

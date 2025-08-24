@@ -1,0 +1,74 @@
+/* 🎨 Color Palette
+   - Primary: #6B26D8 (Purple)
+   - Accent: #DD7F41 (Orange)
+   - Background: #F9F9FB (Light Gray)
+   - Text: #333
+*/
+
+.upload-container {
+  margin: 40px auto;
+  padding: 30px;
+  border: 2px dashed #6B26D8;
+  border-radius: 16px;
+  text-align: center;
+  width: 420px;
+  background: #F9F9FB;
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.08);
+  font-family: "Segoe UI", sans-serif;
+}
+
+/* File Input Wrapper */
+.file-input-label {
+  display: block;
+  padding: 12px 20px;
+  border: 2px solid #6B26D8;
+  border-radius: 10px;
+  background: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  color: #6B26D8;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-bottom: 20px;
+}
+
+.file-input-label:hover {
+  background: #f0ebff;
+}
+
+/* Hide the default ugly input */
+.file-input {
+  display: none;
+}
+
+/* Upload Button */
+.upload-btn {
+  display: inline-block;
+  background: linear-gradient(90deg, #6B26D8, #DD7F41);
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.upload-btn:hover {
+  opacity: 0.9;
+  transform: translateY(-2px);
+}
+
+.upload-btn.disabled {
+  background: #aaa;
+  cursor: not-allowed;
+  transform: none;
+}
+
+/* Error Text */
+.error-text {
+  margin-top: 15px;
+  color: #e63946;
+  font-weight: 500;
+}

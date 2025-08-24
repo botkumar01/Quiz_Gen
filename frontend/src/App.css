@@ -1,0 +1,224 @@
+/* 🌙 Dark theme app container */
+.app-container {
+  max-width: 80%;
+  margin: 40px auto;
+  padding: 30px 40px;
+  background: #1e282c;
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #fff;
+}
+
+/* Title */
+.app-title {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 30px;
+  color: #3c8dbc;
+}
+
+/* === Pattern Selection === */
+.pattern-section {
+  margin-bottom: 30px;
+  padding: 20px;
+  background: #2c3a40;
+  border-radius: 16px;
+  border-left: 6px solid #3c8dbc;
+}
+
+.pattern-section h2 {
+  font-size: 1.6rem;
+  margin-bottom: 15px;
+  color: #fff;
+}
+
+.pattern-option {
+  display: block;
+  font-size: 1.2rem;
+  margin: 10px 0;
+  cursor: pointer;
+  color: #fff;
+  font-weight: 500;
+}
+
+.pattern-option input[type="radio"] {
+  margin-right: 10px;
+  accent-color: #3c8dbc;
+}
+
+/* === Upload Section === */
+.upload-section {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.upload-section h2 {
+  font-size: 1.6rem;
+  margin-bottom: 15px;
+  color: #3c8dbc;
+}
+
+/* FileUpload */
+.upload-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border: 2px dashed #3c8dbc;
+  border-radius: 16px;
+  background: #2c3a40;
+  width: 100%;
+  max-width: 500px;
+  margin: auto;
+}
+
+.file-input-label {
+  display: block;
+  width: 100%;
+  padding: 12px 20px;
+  border: 2px solid #3c8dbc;
+  border-radius: 10px;
+  background: #1e282c;
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #3c8dbc;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.file-input-label:hover {
+  background: #3c8dbc10;
+}
+
+.file-input {
+  display: none;
+}
+
+.upload-btn {
+  display: inline-block;
+  background: #3c8dbc;
+  color: #fff;
+  font-size: 1.1rem;
+  font-weight: 600;
+  padding: 12px 30px;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.upload-btn:hover {
+  opacity: 0.9;
+  transform: translateY(-2px);
+}
+
+.error-text {
+  margin-top: 15px;
+  color: #e74c3c;
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+/* === Difficulty Section === */
+.difficulty-section {
+  margin-bottom: 30px;
+  background: #2c3a40;
+  padding: 20px;
+  border-radius: 16px;
+  border-left: 6px solid #3c8dbc;
+}
+
+.difficulty-container {
+  /* display: flex; */
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.difficulty-card {
+  flex: 1 1 120px;
+  display: flex;
+  flex-direction: column;
+  background: #1e282c;
+  padding: 15px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  color: #fff;
+}
+
+.difficulty-title {
+  width: 100%;
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+  color: #3c8dbc;
+  font-weight: 600;
+  text-align: center;
+}
+
+.question-label {
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: #fff;
+}
+
+.difficulty-select {
+  padding: 8px 10px;
+  border-radius: 8px;
+  border: 1px solid #3c8dbc;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  background: #2c3a40;
+  color: #fff;
+  transition: all 0.3s ease;
+}
+
+.difficulty-select:hover {
+  border-color: #dd7f41;
+}
+
+/* === Generate Section === */
+.generate-section {
+  margin-top: 30px;
+  padding: 20px;
+  background: #2c3a40;
+  border-radius: 16px;
+  border-left: 6px solid #3c8dbc;
+}
+
+.generate-section button {
+  background: #3c8dbc;
+  color: #fff;
+  font-size: 1.2rem;
+  padding: 12px 30px;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.generate-section button:hover {
+  opacity: 0.9;
+  transform: translateY(-2px);
+}
+
+.generate-section h3 {
+  margin-top: 20px;
+  font-size: 1.5rem;
+  color: #3c8dbc;
+}
+
+.generate-section pre {
+  font-size: 1.1rem;
+  color: #fff;
+  background: #1e282c;
+  padding: 15px;
+  border-radius: 10px;
+  white-space: pre-wrap;
+  border: 1px solid #3c8dbc;
+}
